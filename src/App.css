@@ -1,0 +1,59 @@
+body{
+	background-color: #111;
+	color: #ea7200;
+}
+.App {
+    text-align: center;
+}
+form{
+	display: flex;
+	flex-flow: nowrap row;
+	justify-content: center;
+	margin-top: 5rem;
+}
+input:focus{
+	outline: none;
+}
+form input{
+	border-color: #ea7200;
+	background-color: #000;
+	color: #ea7200;
+	padding: .25rem;
+}
+#wordPlace{
+	width: 65%;
+}
+ul{
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: center;
+	margin: 1rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	list-style-type: none;
+	padding: 0px;
+}
+li{
+	border: 1px solid #508;
+	display: flex;
+	flex-flow: nowrap column;
+	margin: .5rem;
+}
+li > div{
+	padding: .25rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+li > input{
+	background-color: #000;
+	border: 1px solid;
+	border-color: #508;
+	color: #70a;
+	
+}
+
+@media screen and (min-width: 768px){
+	#wordPlace{
+		width: 600px;
+	}
+}
